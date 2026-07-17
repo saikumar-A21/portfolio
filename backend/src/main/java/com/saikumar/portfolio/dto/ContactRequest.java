@@ -14,7 +14,7 @@ public class ContactRequest {
     @Email(message = "Email must be valid")
     private String email;
 
-    @NotBlank(message = "Message cannot be empty")
+   
     @Size(max = 2000)
     private String message;
 
