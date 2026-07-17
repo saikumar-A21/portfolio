@@ -1,0 +1,20 @@
+spring.application.name=portfolio-backend
+server.port=8111
+
+# H2 in-memory DB (no install needed, for local testing only)
+spring.datasource.url=jdbc:h2:mem:portfolio
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=saikumar
+spring.datasource.password=saikumar
+
+spring.jpa.hibernate.ddl-auto=update
+spring.h2.console.enabled=true
+
+# Disable mail (not needed locally)
+spring.mail.host=smtp.gmail.com
+spring.mail.username=saikumaramirishetti98976@gmail.com
+spring.mail.password= wiyihydyampgeeph 
+#tkmn rxnz vgjf jwyq
+spring.mail.port=587
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true

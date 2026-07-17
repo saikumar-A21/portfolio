@@ -1,0 +1,5 @@
+/* App-level spacing and layout only — tokens live in index.css */
+
+main {
+  width: 100%;
+}

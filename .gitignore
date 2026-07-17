@@ -1,0 +1,22 @@
+# Eclipse / STS
+.metadata/
+.project
+.classpath
+.settings/
+*.launch
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Backend
+backend/target/
+backend/.metadata/
+backend/.project
+backend/.classpath
+backend/.settings/
+
+# OS
+.DS_Store
+Thumbs.db
